@@ -101,11 +101,6 @@
   }
 }
 
-/*
-  TODO:  Figure out how to make the col-4 and col-8 even out like regular
-          columns so that you make them responsive.
-*/
-
 @media screen and (max-width: 400px) {
   .appointments-section {
     height: 60vh;
