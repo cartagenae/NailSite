@@ -31,8 +31,11 @@ const ParallaxImage = ({
   else if(window.innerWidth <= 850) {
     strength = 1100;
   }
+  else if(window.innerWidth <= 1050) {
+    strength = 1300; 
+  }
   else {
-    strength = 1200;
+    strength = 800;
   }
 
   useEffect(() => {
