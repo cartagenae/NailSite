@@ -1,0 +1,27 @@
+.main-header {
+  list-style-type: none;
+  background-color: #1B1A17;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10vw;
+  /* padding-right: 1vw; */
+}
+
+/* Media Queries */
+
+/* Mobile Screens */
+
+@media screen and (max-width: 1050px) {
+  .main-header {
+    padding-left: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .links {
+    color: pink;
+  }
+}

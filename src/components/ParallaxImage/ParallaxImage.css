@@ -1,0 +1,22 @@
+/* @media screen and (max-width: 1050px) and (min-width: 425px) {
+  .showcase-section {
+    height: 180vh;
+  }
+
+  .showcase-section .showcase-image {
+    width: 40vw;
+    height: 30vh;
+  }
+} */
+
+@media screen and (max-width: 425px) {
+  .main {
+    height: 100vh;
+  }
+
+  .showcase {
+    height: 650vh;
+    display: flex;
+    align-items: center;
+  }
+}

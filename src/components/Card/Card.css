@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 750px) {
+  .testimonials-section .title-card {
+    width: 50vw;
+  }
+}

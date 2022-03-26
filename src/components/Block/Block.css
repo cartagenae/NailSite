@@ -1,0 +1,148 @@
+.container-fluid {
+  height: 75vh;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.my-story-section .col {
+  /* border: 1px solid #fff; */
+  text-align: center;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1050px) and (min-width: 425px) {
+  .appointments-section {
+    height: 50vh;
+  }
+
+  .my-story-section {
+    height: 50vh;
+  }
+
+  .my-story-section .my-story-image {
+    width: 40vw;
+    height: 30vh;
+  }
+
+  .services-section {
+    height: 55vh;
+  }
+
+  .services-section .service-image {
+    width: 40vw;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 775px) {
+  .my-story-section {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .my-story-section {
+    height: 65vh;
+  }
+}
+
+/* Mobile Screens */
+
+/* @media screen and (max-width: 740px) and (max-height: 420px) and (min-height: 400px) {
+  .services-section {
+    height: 200vh;
+  }
+} */
+
+@media screen and (max-width: 425px) {
+  .appointments-section {
+    height: 55vh;
+  }
+
+  .my-story-image {
+    height: 50vh;
+    width: 90vw;
+  }
+
+  .my-story-section {
+    width: 100vw;
+    height: 140vh;
+  }
+  
+  .my-story-section .col {
+    width: 100vw;
+    height: 20vh;
+  }
+
+  .my-story-section .col__image {
+    height: 60vh;
+  }
+
+  .my-story-section .col__text {
+    height: 75vh;
+  }
+
+  .services-section {
+    height: 165vh;
+    background-color: #323232;
+  }
+
+  .showcase-section .title {
+    width: 100vw;
+  }
+}
+
+/*
+  TODO:  Figure out how to make the col-4 and col-8 even out like regular
+          columns so that you make them responsive.
+*/
+
+@media screen and (max-width: 400px) {
+  .appointments-section {
+    height: 60vh;
+  }
+
+  .my-story-section {
+    height: 145vh;
+  }
+
+  .my-story-section .col {
+    /* border: 1px solid #fff; */
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .appointments-section {
+    height: 70vh;
+  }
+
+  .my-story-section {
+    height: 160vh;
+  }
+  
+  .my-story-section .col {
+    height: 115vh;
+  }
+
+  .my-story-section .col__image {
+    height: 60vh;
+  }
+
+  .my-story-section .col__text {
+    height: 90vh;
+  }
+
+  .my-story-section .row {
+    height: 175vh;
+  }
+}

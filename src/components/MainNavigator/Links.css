@@ -1,0 +1,29 @@
+.main-navigator {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 4vh;
+  margin-top: 1vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E04DB0;
+}
+
+/* Media Queries */
+
+/* Mobile Screens */
+
+@media screen and (max-width: 1050px) {
+  .main-navigator {
+    display: none;
+  }
+}

@@ -1,0 +1,43 @@
+.hamburger {
+  display: none;
+  background-color: #1B1A17;
+}
+
+.hamburger-icon {
+  color: #fff;
+}
+
+/* .main-navigator {
+  position: fixed;
+  top: 0%;
+} */
+
+.title {  
+  color: #fff;
+}
+
+/* Media Queries */
+
+/* Mobile Screens */
+
+@media screen and (max-width: 1050px) {
+  .hamburger {
+    display: block;
+  }
+
+  .title {
+    width: 30vw;
+  }
+
+  .links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    width: 60vw;
+  }
+}
